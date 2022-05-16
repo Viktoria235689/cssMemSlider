@@ -3,19 +3,19 @@ alert("Спасибо большое. что проверяете мою раб�
 
 const mems = [
     {
-        img: "/cssMemSlider/assets/img/kot-nyashka.jpg",
+        img: "/cssMemSlider/cssMemSlider/assets/img/kot-nyashka.jpg",
         text: "I'm pretty!",
     },
     {
-        img: "/cssMemSlider/assets/img/memes_5e789b1ba22bb.jpg",
+        img: "/cssMemSlider/cssMemSlider/assets/img/memes_5e789b1ba22bb.jpg",
         text: "When you find out your lifestyle is actually called 'quarantine'",
     },
     {
-        img: "/cssMemSlider/assets/img/square_320_31a9a88f188c78edd7005767e422db1f.jpg",
+        img: "/cssMemSlider/cssMemSlider/assets/img/square_320_31a9a88f188c78edd7005767e422db1f.jpg",
         text: "Meow!",
     },
     {
-        img: "/cssMemSlider/assets/img/120684793.jpg",
+        img: "/cssMemSlider/cssMemSlider/assets/img/120684793.jpg",
         text: "True story!",
     },
 ];
