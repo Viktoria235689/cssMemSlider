@@ -1,0 +1,81 @@
+html {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+}
+
+.slider-item {
+    width: 100%;
+    display: none;
+    animation-duration: 0.5s;
+    animation-name: slidein;
+    height: 100%;
+}
+
+@keyframes slidein {
+    0% {
+      margin-left: 100%;
+      opacity: 0;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+  
+    100% {
+      margin-left: 0%;
+      opacity: 1;
+    }
+}
+
+.slider-item.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+p {
+    color: white;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-control {
+    cursor: pointer;
+    transform: scale(1.5);
+    margin: 1vh;
+}
+
+.slider-control:hover {
+    transform: scale(2.0);
+}
