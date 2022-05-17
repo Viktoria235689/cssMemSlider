@@ -63,11 +63,15 @@ body {
 
 p {
     color: white;
+    align-self: baseline;
 }
 
 .slider-controls {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    left: 35%;
+    bottom: 2%;
 }
 
 .slider-control {
@@ -78,4 +82,11 @@ p {
 
 .slider-control:hover {
     transform: scale(2.0);
+}
+
+@media (max-width: 320px) {
+    .slider-controls {
+        left: 3%;
+        bottom: 14%;
+    }
 }
