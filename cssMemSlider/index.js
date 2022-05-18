@@ -1,4 +1,4 @@
-
+alert("Добрый день. я немного неверно поняла задание и засабмитила не ту ссылку, очень большая просьба перейти в консоль, там лежит верная ссылка на пул реквест. Спасибо!")
 
 const mems = [
     {
@@ -56,3 +56,5 @@ function slide(index) {
     let newItem = document.querySelector(`#sliderItem-${index}`);
     newItem.classList.add("open");
 }
+
+console.log("https://github.com/Viktoria235689/cssMemSlider/pull/1")
